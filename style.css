@@ -1,0 +1,653 @@
+body{
+    width: 1920px;
+    background-color: rgb(219, 213, 213);
+}
+.header{
+    position: relative;
+    width: 100%;
+    height: 80px;
+}
+.header .logo{
+    position: absolute;
+    width: 214px;
+    height: 58px;
+    background-image: url("img/logo.png");
+    margin-left: 100px;
+    margin-top: 10px;
+}
+ .header .header_second{
+     width: 300px;
+     height: 40px;
+     margin-left: 600px;
+     margin-top: 15px;
+     position: absolute;
+ }
+ .header .header_second input{
+     background-image: url("images/images/icon/搜索.png");
+     background-size: 40px 40px;
+     background-repeat: no-repeat;
+     background-position: 250px ;
+     width: 100%;
+     height: 100%;
+     border-radius: 20px;
+     border: 1px solid rgb(143, 139, 139);
+ }
+.header .header_third{
+    position: absolute;
+    margin-left: 1100px; 
+    width: 500px;
+    height: 100%;
+}
+.header .header_third .font{
+    border-radius: 10px;
+    text-align: center;
+    line-height: 30px;
+    width: 5em;
+    height: 30px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+.header .header_third .font_1{
+    border-radius: 10px;
+    text-align: center;
+    line-height: 30px;
+    width: 5em;
+    height: 30px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+.header .header_third .font:hover{
+    cursor: pointer;
+    background-color: rgb(22, 180, 243);
+}
+
+/* 导航栏 */
+.nav{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(97, 90, 90);
+}
+.nav .nav_1{
+    width: 900px;
+    height: 40px;
+    position: absolute;
+    margin-left: 100px;
+}
+.nav .nav_1 a{
+    line-height: 40px;
+    text-decoration:none;
+    color: #fff;
+    padding: 7px;
+}
+.nav .nav_1 a:hover{
+    color: rgb(0, 102, 255);
+}
+.nav .nav_2{
+    width: 400px;
+    height: 40px;
+    position: absolute;
+    margin-left: 1100px;
+}
+.nav .nav_2 .nav_2_font{
+    cursor: pointer;
+    color: #fff;
+    text-align: center;
+    font-family: '微软雅黑';
+    float: left;
+    padding: 10px;
+    width: 70px;
+    height: 20px;
+}
+.nav .nav_2 .nav_2_font:hover{
+    background-color: brown;
+}
+
+.banner{
+    background-color: rgb(36, 36, 141);
+    background-position: 140px;
+    background-repeat: no-repeat;
+    background-image: url("images/images/banner1.jpg");
+    height: 300px;
+    width: 100%;
+}
+
+/* 轮播下方 */
+/* 1 */
+.banner_bottom{
+    box-shadow:gainsboro 2px 2px 2px 2px ;
+    position: relative;
+    background-color: rgb(243, 236, 236);
+    width: 1240px;
+    height: 150px;
+    margin-left: 140px;
+}
+.banner_bottom .banner_bottom_Con1{
+    border-radius: 20px;
+    position: relative;
+    background-color: #fff;
+    margin-left: 20px;
+    margin-top: 15px;
+    width: 208px;
+    height: 113px;
+    float: left;
+    background-image: url("img/otherFun1.jpg");
+    background-repeat: no-repeat;
+}
+.banner_bottom .banner_bottom_Con1:hover{
+    background-size: 110% 110%;
+}
+.banner_bottom .banner_bottom_Con1 img{
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+.banner_bottom .banner_bottom_Con1 a{
+    text-shadow:#000 5px 5px 5px ;
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 28px;
+    font-weight: 900;
+    font-family: '微软雅黑';
+}
+
+/* 2 */
+.banner_bottom .banner_bottom_Con2{
+    border-radius: 20px;
+    position: relative;
+    background-color: #fff;
+    margin-left: 20px;
+    margin-top: 15px;
+    width: 208px;
+    height: 113px;
+    float: left;
+    background-image: url("img/otherFun2.jpg");
+    background-repeat: no-repeat;
+}
+.banner_bottom .banner_bottom_Con2:hover{
+    background-size: 110% 110%;
+}
+.banner_bottom .banner_bottom_Con2 img{
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+.banner_bottom .banner_bottom_Con2 a{
+    text-shadow:#000 5px 5px 5px ;
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 28px;
+    font-weight: 900;
+    font-family: '微软雅黑';
+}
+
+/* 3 */
+.banner_bottom .banner_bottom_Con3{
+    border-radius: 20px;
+    position: relative;
+    background-color: #fff;
+    margin-left: 20px;
+    margin-top: 15px;
+    width: 208px;
+    height: 113px;
+    float: left;
+    background-image: url("img/otherFun3.jpg");
+    background-repeat: no-repeat;
+}
+.banner_bottom .banner_bottom_Con3:hover{
+    background-size: 110% 110%;
+}
+.banner_bottom .banner_bottom_Con3 img{
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+.banner_bottom .banner_bottom_Con3 a{
+    text-shadow:#000 5px 5px 5px ;
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 28px;
+    font-weight: 900;
+    font-family: '微软雅黑';
+}
+
+/* 4 */
+.banner_bottom .banner_bottom_Con4{
+    border-radius: 20px;
+    position: relative;
+    background-color: #fff;
+    margin-left: 20px;
+    margin-top: 15px;
+    width: 208px;
+    height: 113px;
+    float: left;
+    background-image: url("img/otherFun4.jpg");
+    background-repeat: no-repeat;
+}
+.banner_bottom .banner_bottom_Con4:hover{
+    background-size: 110% 110%;
+}
+.banner_bottom .banner_bottom_Con4 img{
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+.banner_bottom .banner_bottom_Con4 a{
+    text-shadow:#000 5px 5px 5px ;
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 28px;
+    font-weight: 900;
+    font-family: '微软雅黑';
+}
+
+/* 5 */
+.banner_bottom .banner_bottom_Con5{
+    border-radius: 20px;
+    position: relative;
+    background-color: #fff;
+    margin-left: 20px;
+    margin-top: 15px;
+    width: 208px;
+    height: 113px;
+    float: left;
+    background-image: url("img/otherFun5.jpg");
+    background-repeat: no-repeat;
+}
+.banner_bottom .banner_bottom_Con5:hover{
+    background-size: 110% 110%;
+}
+.banner_bottom .banner_bottom_Con5 img{
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+.banner_bottom .banner_bottom_Con5 a{
+    text-shadow:#000 5px 5px 5px ;
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 28px;
+    font-weight: 900;
+    font-family: '微软雅黑';
+}
+/* 最新课程 */
+.new_Con{
+    width: 80%;
+    margin-top: 10px;
+}
+.new_class{
+    margin-left: 410px;
+    position: relative;
+    width: 600px;
+    height: 50px;
+    background-position: 132px;
+    background-repeat: no-repeat;
+    background-image: url("img/redline.png");
+    margin-top: 40px;
+    color: rgb(82, 78, 78);
+    text-align: center;
+    font-size: 30px;
+    font-family: '微软雅黑';
+}
+.new_class span{
+    position: absolute;
+}
+.class_bottom{
+    box-shadow: rgb(175, 170, 170)  2px 2px 2px 2px ;
+    margin-left: 25px;
+    float: left;
+    margin-top: 15px;
+    border-radius: 20px;
+    width: 280px;
+    height: 245px;
+    background-color:#fff;
+}
+.class_bottom a{
+    font-family: '微软雅黑';
+    padding-left: 10px;
+    color: rgb(139, 135, 135);
+    text-decoration: none;
+}
+.class_bottom a:hover{
+    color: blue;
+}
+.class_bottom img{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.class_bottom img:hover{
+    cursor: pointer;
+}
+.new_class_bottom{
+    width: 1240px;
+    margin-top: 40px;
+    margin-left: 138px;
+}
+
+/* 热门职业 */
+.remen_zhiye{
+    width: 100%;
+    height: 400px;
+}
+.zhiye_Con{
+    margin-left: 445px;
+    width: 30%;
+    text-align: center;
+    background-image: url("img/redline.png");
+    background-repeat: no-repeat;
+    background-position: 60px;
+    color: rgb(82, 78, 78);
+    font-size: 30px;
+    font-family: '微软雅黑';
+    margin-top: 600px;
+    
+}
+
+/* 热门职业盒子 */
+/* 1 */
+.remen_zhiye .zhiye_im1{ 
+    box-shadow:gainsboro 1px 1px 1px 1px;
+    position: relative;
+    border-radius: 20px;
+    margin-left: 110px;
+    margin-top: 30px;
+    width: 250px;
+    height: 300px;
+    background-color: rgb(187, 102, 70);
+    float: left;
+}
+/* 2 */
+.remen_zhiye .zhiye_im2{ 
+    box-shadow:gainsboro 1px 1px 1px 1px;
+    position: relative;
+    border-radius: 20px;
+    margin-left: 110px;
+    margin-top: 30px;
+    width: 250px;
+    height: 300px;
+    background-color: rgb(151, 14, 71);
+    float: left;
+}
+/* 3 */
+.remen_zhiye .zhiye_im3{ 
+    box-shadow:gainsboro 1px 1px 1px 1px;
+    position: relative;
+    border-radius: 20px;
+    margin-left: 110px;
+    margin-top: 30px;
+    width: 250px;
+    height: 300px;
+    background-color: rgb(14, 104, 156);
+    float: left;
+}
+/* 4 */
+.remen_zhiye .zhiye_im4{ 
+    box-shadow:gainsboro 1px 1px 1px 1px;
+    position: relative;
+    border-radius: 20px;
+    margin-left: 110px;
+    margin-top: 30px;
+    width: 250px;
+    height: 300px;
+    background-color: rgb(131, 99, 39);
+    float: left;
+}
+/* 热门职业图片 */
+/* 1 */
+.remen_zhiye .zhiye_im1 img{
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 14px;
+    border-radius: 100%;
+}
+/* 2 */
+.remen_zhiye .zhiye_im2 img{
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 14px;
+    border-radius: 100%;
+}
+/* 3 */
+.remen_zhiye .zhiye_im3 img{
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 14px;
+    border-radius: 100%;
+}
+/* 4 */
+.remen_zhiye .zhiye_im4 img{
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 14px;
+    border-radius: 100%;
+}
+/* 热门职业文字 */
+/* 1 */
+.remen_zhiye  a{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 45px;
+    font-size: 25px;
+    font-family: '微软雅黑';
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* 名师简介 */
+.teacher{
+    position: relative;
+    width: 100%;
+    height: 445px;
+    
+}
+.title .Big{
+    position: absolute;
+    margin-left: 700px;
+    font-size: 30px;
+    font-family: '微软雅黑';
+    text-decoration: none;
+    color: rgb(85, 83, 83);
+}
+.title .Small{
+    position: absolute;
+    text-decoration: none;
+    color: rgb(85, 83, 83);
+    font-family: '微软雅黑';
+    font-size: 20px;
+    margin-left: 585px;
+    margin-top: 50px;
+}
+.teacher .More{
+    text-decoration: none;
+    color: rgb(85, 83, 83);
+    font-family: '微软雅黑';
+    font-size: 12px;
+    position: absolute;
+    margin-left: 1400px;
+    margin-top: 100px;
+    cursor: pointer;
+}
+.teacher .teacher_Con{
+    box-shadow:gainsboro 1px 1px 1px;
+    position: relative;
+    border-radius: 20px;
+    margin-top: 120px;
+    margin-left: 110px;
+    width: 250px;
+    height: 300px;
+    background-color: rgb(247, 235, 235);
+    float: left;
+}
+.teacher .teacher_Con img{
+    border-radius: 100%;
+    margin-left: 44px;
+    margin-top: 20px;
+}
+.teacher .teacher_Con h3{
+    font-size: 20px;
+    font-family: '微软雅黑';
+    font-weight: normal;
+    color: rgb(85, 83, 83);
+    text-align: center;
+}
+.teacher .teacher_Con a{
+    position: absolute;
+    text-decoration: none;
+    color: rgb(85, 83, 83);
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+/* 页脚部分 */
+/* 1 */
+.foot_Con{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(226, 221, 221);
+}
+.foot_Con .bto_con1{
+    margin-top: 20px;
+    position: absolute;
+}
+.foot_Con .bto_con1 .info1{
+    font-size: 18px;
+}
+.foot_Con .bto_con1  span{
+    font-size: 14px;
+    color: rgb(85, 83, 83);
+    font-family: '微软雅黑';
+    margin-left: 100px;
+}
+/* 2 */
+.foot_Con .bto_con2 .info2{
+    color: rgb(85, 83, 83);
+    font-family: '微软雅黑';
+    font-size: 18px;
+}
+.foot_Con .bto_con2{
+    margin-left: 100px;
+    position: absolute;
+    margin-top: 60px;
+    width: 1000px;
+}
+.foot_Con .bto_con2 a{
+    margin-left: 80px;
+}
+/* 3 */
+.foot_Con .bto_con3 {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 160px;
+    padding-left: 120px;
+    padding-right: 100px;
+}
+.foot_Con .bto_con3 a{
+    font-size: 14px;
+    font-family: '微软雅黑';
+    text-decoration: none;
+    color: rgb(85, 83, 83);
+}
+/* 4 */
+.foot_Con .bto_con4{
+    color: white;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 250px;
+    width: 1000px;
+    height: 50px;
+}
+.foot_Con .bto_con4 div{
+    line-height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    background-color: #3899dd;;
+    float: left;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.foot_Con .bto_con4 div:hover{
+    cursor: pointer;
+    background-color: #1b84cf;
+}
+/* 5 */
+.foot_Con .bto_con5{
+    font-family: '微软雅黑';
+    color: rgb(85, 83, 83);
+    font-size: 14px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+/* 6 */
+.foot_Con .bto_con6{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 600px;
+}
+
+/* 微信区块 */
+.ycwx{
+	position: fixed;
+    top: 200px;
+	left: 50%;
+    margin-left: 700px;
+}
+.ycwx a{
+    background-color: gainsboro;
+	display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+    box-shadow: 0 0 8px rgb(151, 147, 147);
+	text-align: center;
+    margin-bottom: 10px;
+    padding-top: 8px;
+}
+.ycwx a span{
+	display: none;
+}
+.ycwx .wx{
+	background: url("img/wxIcon.png") no-repeat center;position: relative;
+}
+.ycwx .qq{
+	background: url("img/qqIcon.png") no-repeat center;
+}
+.ycwx .app{
+	background: url("img/mobileIcon.png") no-repeat center;
+}
+.ycwx .top{
+	background: url("img/upArrowIcon.png") no-repeat center;
+}
+.ycwx .wx img{
+	display: none;position: absolute;top: -10px;left: -180px;
+}
+.ycwx a:hover span{
+	display: block;
+}
+.ycwx a:hover{
+    color: rgb(85, 83, 83);
+    text-decoration: none;
+	background: none;
+}
+.ycwx .wx:hover img{
+	display: block;
+}
